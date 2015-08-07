@@ -14,7 +14,7 @@ url: "http://blog.burningsun.xyz" # the base hostname & protocol for your site
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
-filter: 'tag'
+filter: 'category'
 
 sass:
   style: compressed
