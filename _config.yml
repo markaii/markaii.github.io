@@ -10,7 +10,7 @@ author:
 
 markdown: kramdown
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.burningsun.xyz" # the base hostname & protocol for your site
+url: "http://burningsun.xyz" # the base hostname & protocol for your site
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
