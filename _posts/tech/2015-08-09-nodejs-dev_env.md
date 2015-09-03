@@ -25,7 +25,7 @@ express默认使用的是[jade](http://jade-lang.com/), 这是一种类似python
 用的模板[ejs](http://www.embeddedjs.com/)语法比较丑陋, 最终选择swig作为后端模板引擎, swig的
 语法和django相近, 博主有较长时间的django开发经历.运行以下命令安装:
 
-    $ npm install swig --savnstall swig --save
+    $ npm install swig --save
 
 ## coffee script安装
 

@@ -258,12 +258,29 @@ YouCompleteMe的安装和普通插件不太一样, 下载完成之后还需要�
 安装完成后在.vimrc的最后添加配置:
 
     " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-    let g:UltiSnipsExpandTrigger="<tab>"
+    let g:UltiSnipsExpandTrigger="<c-e>"
     let g:UltiSnipsJumpForwardTrigger="<c-b>"
     let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
     " If you want :UltiSnipsEdit to split your window.
     let g:UltiSnipsEditSplit="vertical"
+
+### 引号配对补全
+
+    " 引号配对补全
+    Plugin 'Raimondi/delimitMate'
+    " for python docstring ", 特别有用
+    au FileType python let b:delimitMate_nesting_quotes = ['"']
+    " 关闭某些类型文件的自动补全
+    "au FileType mail let b:delimitMate_autoclose = 0'"']
+
+### html/xml标签配对补全
+    
+    " html/xml标签配对补全
+    Plugin 'docunext/closetag.vim'
+    let g:closetag_html_style=1
+
+
 
 ### .vimrc文件
 
