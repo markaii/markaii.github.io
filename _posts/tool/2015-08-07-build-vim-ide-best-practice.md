@@ -69,11 +69,11 @@ tags: vim tool
 大部分语言是以4个空格作为标准的缩进的,但是像js这种会频繁出现多重嵌套的语言以2个空格作为标准的缩进,
 我希望这个编辑器能够适应不同语言的缩进要求, 将以下配置加入.vimrc中
 
-	" 打开文件类型\插件\缩进检测
- 	filetype plugin indent on
+    " 打开文件类型\插件\缩进检测
+    filetype plugin indent on
 
     " 默认设置4个字符缩进
- 	" 设置tab键宽度
+    " 设置tab键宽度
     set tabstop=4
 
     set softtabstop=4
@@ -120,7 +120,7 @@ vim目前主要有两种比较知名的插件管理工具: Vundle && pathogen, �
     $ git clone https://github.com/mrtazz/molokai.vim.git
 
 将下载下来的.vim文件放到~/.vim/colors/目录下面
-修改.vimrc文件的colorschema为: `colorscheme molokai
+修改.vimrc文件的colorschema为: `colorscheme molokai`
 
 配色方案的喜好因人而异, 可以自己去找一些喜欢的配色方案下载下来放到`~/.vim/colors/` 目录中, 然后修改一下.vimrc配置即可.
 
@@ -280,6 +280,13 @@ YouCompleteMe的安装和普通插件不太一样, 下载完成之后还需要�
     Plugin 'docunext/closetag.vim'
     let g:closetag_html_style=1
 
+### 其他配置
+
+    " less支持
+    Plugin 'groenewege/vim-less'
+    
+    " coffee script支持
+    Plugin 'kchmck/vim-coffee-script'
 
 
 ### .vimrc文件
