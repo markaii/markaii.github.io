@@ -1,6 +1,6 @@
 ## 我的博客
 
-地址: [http://burningsun.xyz](http://burningsun.xyz)
+地址: [http://markaii.me](http://markaii.me)
 
 本博客基于[Jekyll](http://jekyllrb.com)生成,
 
