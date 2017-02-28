@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "mongodb安装指南(mac)" 
 categories: 技术
 tags: mongodb tech db

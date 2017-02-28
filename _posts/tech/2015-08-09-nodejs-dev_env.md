@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single 
 title: "nodejs开发环境搭建" 
 categories: 技术
 tags: nodejs tech tool
@@ -34,11 +34,11 @@ javascript语法丑陋是这门语言饱受诟病的一个重要原因, 现在�
 
     npm install -g coffee-script
 
-## grunt安装
+## gulp安装
 
-使用以下命令安装grunt cli, 安装完成之后可以运行`grunt`命令执行`Gruntfile`文件的配置
+使用以下命令安装gulp, 安装完成之后可以运行`gulp`命令执行`gulpfile`文件的配置
 
-    npm install -g grunt-cli
+    npm install -g gulp
 
 ## jshint安装
     

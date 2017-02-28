@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "代码中的常用英文缩写" 
 categories: 规范
 tags: abbreviation specification

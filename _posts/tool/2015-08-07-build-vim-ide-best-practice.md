@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single 
 title: "构建VIM-IDE最佳实践"
 categories: 工具
 tags: vim tool
